@@ -1,0 +1,10 @@
+# root .gitignore
+.env
+**/.env
+node_modules/
+__pycache__/
+*.pyc
+target/
+.venv/
+backend-python/uploads/exam_schedules/*
+!backend-python/uploads/exam_schedules/.gitkeep
